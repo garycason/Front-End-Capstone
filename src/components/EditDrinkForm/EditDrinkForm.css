@@ -1,0 +1,63 @@
+/* EditDrinkForm.css */
+
+.edit-drink-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .edit-drink-form {
+    width: 90%; /* Adjust based on your preference */
+    max-width: 600px; /* Maximum width of the form */
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  .edit-drink-label {
+    display: block;
+    margin-bottom: 15px;
+  }
+  
+  .edit-drink-input,
+  .edit-drink-textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 5px;
+  }
+  
+  .ingredient-section {
+    margin-top: 20px;
+  }
+  
+  .ingredient-section h3 {
+    margin-bottom: 10px;
+  }
+  
+  .ingredient-section label {
+    display: block;
+    margin: 5px 0;
+  }
+  
+  .edit-drink-submit {
+    display: block; /* Makes the button take the full width of its container */
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50; /* Green background for submit button */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .edit-drink-submit:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

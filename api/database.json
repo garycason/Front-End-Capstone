@@ -1,0 +1,302 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "user1",
+      "email": "example@example.com",
+      "password": "examplePassword"
+    }
+  ],
+  "drinks": [
+    {
+      "drinkName": "Moscow Mule",
+      "drinkDescription": "\nImagine a drink that's like a cool breeze on a hot summer day. It's served in a shiny, frosty copper mug that feels like it's been chilled just for you. With every sip, you taste a refreshing blend of flavors that dance on your tongue, leaving you feeling refreshed and invigorated. It's the kind of drink that makes you think of lively conversations with friends, laughter in the air, and moments that you'll remember long after the glass is empty. That's the magic of a Moscow Mule.",
+      "ingredients": {
+        "spirits": [
+          "Vodka"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Ginger Ale"
+        ],
+        "garnishes": [
+          "Mint"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/mzXOAWTZafpmLcJVo8jH6HJujrYF1hS-11M58-zQ7kI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/YWNvdXBsZWNvb2tz/LmNvbS93cC1jb250/ZW50L3VwbG9hZHMv/MjAxOS8wNi9Nb3Nj/b3ctTXVsZS0wNjIu/anBn",
+      "userId": "Bob Harper",
+      "id": 3
+    },
+    {
+      "drinkName": "Old Fashioned",
+      "drinkDescription": "Traditional Bourbon cocktail. Best served with a cigar",
+      "ingredients": {
+        "spirits": [
+          "Bourbon"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Club Soda",
+          "Simple Syrup"
+        ],
+        "garnishes": [
+          "Luxardo Cherry",
+          "Orange Slice"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/mGviUMH-qygPJ4bApzcxXV4vrRSbjvaMOulc0i1Py14/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9zdGF0/aWMwMS5ueXQuY29t/L2ltYWdlcy8yMDIz/LzEwLzE3L211bHRp/bWVkaWEvUlMtT2xk/LUZhc2hpb25lZC1m/aHd2L1JTLU9sZC1G/YXNoaW9uZWQtZmh3/di1hcnRpY2xlTGFy/Z2UuanBnP3dpZHRo/PTEyODAmcXVhbGl0/eT03NSZhdXRvPXdl/YnA",
+      "userId": "Laura Cason",
+      "id": 5
+    },
+    {
+      "drinkName": "Vodka Red Bull ",
+      "drinkDescription": "Vodka with Red Bull and Ice\n",
+      "ingredients": {
+        "spirits": [
+          "Vodka"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Red Bull"
+        ],
+        "garnishes": [
+          "Lemon"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/P9yvf4S1FMLZh6lElgoirzEck92pIJ0-_J72s35pn7g/rs:fit:860:0:0/g:ce/aHR0cHM6Ly93d3cu/bGlxdW9yLmNvbS90/aG1iL2J5OTVDQW9G/LW5qNHcxdGlsNWl0/blFGRnJnOD0vMTUw/MHgwL2ZpbHRlcnM6/bm9fdXBzY2FsZSgp/Om1heF9ieXRlcygx/NTAwMDApOnN0cmlw/X2ljYygpL19fb3B0/X19hYm91dGNvbV9f/Y29ldXNfX3Jlc291/cmNlc19fY29udGVu/dF9taWdyYXRpb25f/X2xpcXVvcl9fMjAx/Nl9fMTJfXzIyMTE0/NTExX192b2RrYS1y/ZWQtYnVsbC03MjB4/NzIwLXJlY2lwZS1i/MTZhNjY3Y2EzNTQ0/NDU3OTk2MTBlMzli/ZTYxZTQwYS5qcGc",
+      "userId": null,
+      "id": 6
+    },
+    {
+      "drinkName": "Mint Julep",
+      "drinkDescription": "Kentucky Derby's Iconic Cocktail! Great on a May day!",
+      "ingredients": {
+        "spirits": [
+          "Bourbon"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Simple Syrup"
+        ],
+        "garnishes": [
+          "Mint"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/kD9nYdkV1gsDCMRNsz2Itds_Jo9IpT-J5jcSJ2ZRcao/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvOTAw/ODAwNTUwL3Bob3Rv/L21pbnQtanVsZXAu/anBnP3M9NjEyeDYx/MiZ3PTAmaz0yMCZj/PTlfdVdXNU8zcTk1/WVByVDM3R0VJR1FM/Rk5OMlktalZsbjEx/LUNXd3RNa009",
+      "userId": "Laura Cason",
+      "id": 7
+    },
+    {
+      "drinkName": "Drew's Pineapple Margarita ",
+      "drinkDescription": " Drew Saltgrass specialty ",
+      "ingredients": {
+        "spirits": [
+          "Tequila"
+        ],
+        "liqueurs": [
+          "Cointreau"
+        ],
+        "mixers": [
+          "Orange Juice",
+          "Pineapple Juice",
+          "Lime Juice",
+          "Sour Mix"
+        ],
+        "garnishes": [
+          "Lime",
+          "Sugar Rim",
+          "Pineapple"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/XELInxgd5akVyF3U73B8zp0WQ3kwOzt3gNxBKuP-zoI/rs:fit:500:0:0/g:ce/aHR0cHM6Ly93d3cu/bWlzc2ludGhla2l0/Y2hlbi5jb20vd3At/Y29udGVudC91cGxv/YWRzLzIwMTQvMDEv/UGluZWFwcGxlLU1h/cmdhcml0YXMtUmVj/aXBlLVBJTi04MDB4/MTIwMC5qcGc",
+      "userId": "Drew Herkey",
+      "id": 8
+    },
+    {
+      "drinkName": "Long Island Iced Tea",
+      "drinkDescription": "A Long Island Iced Tea is a potent and refreshing cocktail known for its deceptive strength and balanced flavors, perfect for those who enjoy a drink with a kick. It's a classic choice for anyone looking to cool off on a hot summer day or unwind after a long week.",
+      "ingredients": {
+        "spirits": [
+          "Vodka",
+          "Gin",
+          "Rum",
+          "Tequila"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Coke",
+          "Sour Mix"
+        ],
+        "garnishes": [
+          "Lemon"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/2-tGUWRi1-gjTSdhWejEh_JgwdLgB-qp1MmCJZKHAN0/rs:fit:860:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzAwLzE2LzUwLzM3/LzM2MF9GXzE2NTAz/NzMxX2dLWWtnRzVZ/Q3hNU0VRSk5GWU1R/SGdIYmhVczRLYnFx/LmpwZw",
+      "userId": "Gary Cason",
+      "id": 9
+    },
+    {
+      "drinkName": "French Martini ",
+      "drinkDescription": "\nThe French Martini is a sophisticated and elegant cocktail known for its smooth and fruity taste, reminiscent of a chic Parisian soirée. Its refined character and hint of luxury make it a timeless choice for those seeking a touch of class in their drink selection.\n\n\n\n\n\n",
+      "ingredients": {
+        "spirits": [
+          "Vodka"
+        ],
+        "liqueurs": [
+          "Chambord"
+        ],
+        "mixers": [
+          "Pineapple Juice"
+        ],
+        "garnishes": [
+          "Rasberry"
+        ]
+      },
+      "imageURL": "https://www.acouplecooks.com/wp-content/uploads/2020/07/French-Martini-005.jpg",
+      "userId": "Laura Cason",
+      "id": 11
+    },
+    {
+      "drinkName": "Gibson",
+      "drinkDescription": "The Gibson cocktail is a classic and refined drink, distinguished by its iconic garnish of crisp cocktail onions, adding a touch of sophistication to its smooth and balanced flavors. With its simplicity and timeless appeal, it's a favored choice among cocktail connoisseurs looking for an elegant libation with a subtle twist.",
+      "ingredients": {
+        "spirits": [
+          "Gin"
+        ],
+        "liqueurs": [
+          "Dry Vermouth"
+        ],
+        "mixers": [],
+        "garnishes": [
+          "Cocktail Onions"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/JuR2OirD-hGjg8S0NX-5zLZNF_mjOn8vZElRg2BEtEI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9waG90/b3Muc211Z211Zy5j/b20vcGhvdG9zL2kt/WGhHTlh6Yy8wL08v/aS1YaEdOWHpjLmpw/Zw",
+      "userId": "Laura Cason",
+      "id": 12
+    },
+    {
+      "drinkName": "Irish Coffee",
+      "drinkDescription": "\nIrish Coffee is a comforting and invigorating beverage, renowned for its warming qualities and delightful combination of flavors. It's a beloved choice for cozy evenings or as a pick-me-up on chilly mornings, offering a harmonious blend of rich aromas and creamy textures.",
+      "ingredients": {
+        "spirits": [
+          "Irish Whiskey"
+        ],
+        "liqueurs": [
+          "Baileys Irish Cream"
+        ],
+        "mixers": [
+          "Coffee",
+          "Cream"
+        ],
+        "garnishes": [
+          "Sugar Rim"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/ec0GA45puDH4z8gSvy8eZy7hm9xoGGPAcbI-T9jgfFI/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTMw/MDk4MjU2MS9waG90/by9pcmlzaC1jb2Zm/ZWUuanBnP3M9NjEy/eDYxMiZ3PTAmaz0y/MCZjPXd4VGVpdndY/a0J4bnpSMjV3b1d6/UEVzVGV4VHc5VVdz/RXpfam5vNy1KRjA9",
+      "userId": "Gary Cason",
+      "id": 13
+    },
+    {
+      "drinkName": "Negroni",
+      "drinkDescription": "\nThe Negroni is a sophisticated and balanced cocktail, celebrated for its harmonious blend of flavors and elegant presentation. With its distinctive bitterness and hints of sweetness, it's a beloved choice for those seeking a refined and timeless libation.",
+      "ingredients": {
+        "spirits": [
+          "Gin"
+        ],
+        "liqueurs": [
+          "Campari",
+          "Sweet Vermouth"
+        ],
+        "mixers": [],
+        "garnishes": [
+          "Orange Slice"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/KumuTXL_oFA1Tagb8EiwAo4lrXauHJxI4-VPNnV-G24/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5nZXR0eWltYWdl/cy5jb20vaWQvOTY5/NjE2NzM2L3Bob3Rv/L2EtbmVncm9uaS1j/b2NrdGFpbC13aXRo/LWNhbXBhcmkuanBn/P3M9NjEyeDYxMiZ3/PTAmaz0yMCZjPTF5/VGZKeEFDM1Z3N3Vk/LW9HVzJFMFpMVElk/eUNUUk81R2dIR2Ra/Q0FjZzA9",
+      "userId": "Gary Cason",
+      "id": 14
+    },
+    {
+      "drinkName": "Seabreeze",
+      "drinkDescription": "Vodka based cocktail with juices! ",
+      "ingredients": {
+        "spirits": [
+          "Lemon Vodka"
+        ],
+        "liqueurs": [],
+        "mixers": [
+          "Cranberry Juice",
+          "Grapefruit Juice"
+        ],
+        "garnishes": [
+          "Lime"
+        ]
+      },
+      "imageURL": "https://imgs.search.brave.com/Fmy3iOU04VVS0vGoXcvn10kMgDmtT13c61QTqlnnIjM/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9oaXBz/LmhlYXJzdGFwcHMu/Y29tL2htZy1wcm9k/L2ltYWdlcy8yMjA2/MTUtZGVsaXNoLXNl/by0wNS1zZWFicmVl/emUtY29ja3RhaWwt/aG9yaXpvbnRhbC12/Mi0xNzU1LWViLTE2/NTYzNTUwMDcuanBn/P2Nyb3A9MC44NzJ4/dzowLjk0MHhoOzAu/MDU2MXh3LDAuMDQy/NnhoJnJlc2l6ZT02/NDA6Kg",
+      "userId": "Laura Cason",
+      "id": 15
+    }
+  ],
+  "ingredients": [
+    {
+      "id": 1,
+      "ingredientName": "Rum"
+    },
+    {
+      "id": 2,
+      "ingredientName": "Mint"
+    },
+    {
+      "id": 3,
+      "ingredientName": "Lime Juice"
+    },
+    {
+      "id": 4,
+      "ingredientName": "Sugar"
+    },
+    {
+      "id": 5,
+      "ingredientName": "Soda Water"
+    },
+    {
+      "id": 6,
+      "ingredientName": "Tequila"
+    },
+    {
+      "id": 7,
+      "ingredientName": "Triple Sec"
+    },
+    {
+      "id": 8,
+      "ingredientName": "Salt"
+    }
+  ],
+  "drinkIngredients": [
+    {
+      "id": 1,
+      "drinkId": 1,
+      "ingredientId": 1
+    },
+    {
+      "id": 2,
+      "drinkId": 1,
+      "ingredientId": 2
+    },
+    {
+      "id": 3,
+      "drinkId": 1,
+      "ingredientId": 3
+    },
+    {
+      "id": 4,
+      "drinkId": 1,
+      "ingredientId": 4
+    },
+    {
+      "id": 5,
+      "drinkId": 1,
+      "ingredientId": 5
+    }
+  ]
+}

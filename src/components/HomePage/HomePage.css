@@ -1,0 +1,92 @@
+/* HomePage.css */
+.home-container {
+    width: 100vw; /* Set the width to 100% of the viewport width */
+    min-height: 100vh; /* Set the minimum height to 100% of the viewport height */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+    margin: 0; /* Remove any default margin */
+    padding: 20px; /* You can adjust padding as needed */
+    text-align: center;
+    box-sizing: border-box; /* Include padding in width calculation */
+  }
+  
+  h1 {
+    color: #333;
+    font-size: 2.5rem;
+  }
+  
+  p {
+    color: #666;
+    font-size: 1.2rem;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .featured-drink {
+    background-color: #f8f8f8;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    width: 80%; /* Control the width of the featured drink section */
+    max-width: 600px; /* Max width can help maintain design on larger screens */
+  }
+  
+  .featured-drink h2 {
+    color: #333;
+    font-size: 1.8rem;
+  }
+  
+  .featured-drink img {
+    width: 100%; /* Make the image responsive within its container */
+    border-radius: 8px;
+  }
+  
+  .search-bar {
+    margin: 20px 0;
+    width: 100%; /* Ensure search bar fills the width */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .search-bar input[type="text"] {
+    padding: 10px;
+    width: 70%; /* Adjust based on your layout needs */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .search-bar button {
+    padding: 10px 20px;
+    background-color: #0056b3;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .search-bar button:hover {
+    background-color: #004494;
+  }
+  
+  .home-nav {
+    width: 100%; /* Ensure navigation fills the width */
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .home-nav a {
+    background-color: #f0f0f0;
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 4px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+  }
+  
+  .home-nav a:hover {
+    background-color: #e0e0e0;
+  }
